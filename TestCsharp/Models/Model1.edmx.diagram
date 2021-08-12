@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="27d88b0bfdd347e9a746fc43cce264ff" Name="Diagram1">
+        <EntityTypeShape EntityType="FundamentosCsharpModel.modulo" Width="1.5" PointX="1.875" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FundamentosCsharpModel.operaciones" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FundamentosCsharpModel.rol" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FundamentosCsharpModel.rol_operacion" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FundamentosCsharpModel.usuario" Width="1.5" PointX="4.25" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="FundamentosCsharpModel.FK_operaciones_modulo" ManuallyRouted="false" />
+        <AssociationConnector Association="FundamentosCsharpModel.FK_rol_operacion_operaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="FundamentosCsharpModel.FK_rol_operacion_rol" ManuallyRouted="false" />
+        <AssociationConnector Association="FundamentosCsharpModel.FK_usuario_rol" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
